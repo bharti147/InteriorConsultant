@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background-color: rgb(23, 22, 22);
+  color: white;
+}
+
+/*-----------------------------------*/
+.container {
+  display: flex;
+}
+/*-----------------------------------*/
+
+.topnav {
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+ 
+}
+
+.nav {
+  /* border:solid 2px orange;*/
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 1rem 0rem 1rem 30rem;
+}
+.head {
+  border: 2px solid white;
+  margin: 15px 15px 15px 6.6rem;
+  font-family: "Roboto Flex", sans-serif;
+  padding: 9px;
+  text-align: center;
+}
+
+.nav a {
+  margin: 10px 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-underline-offset: 0.8rem;
+  text-decoration: underline;
+}
+
+/*-----------------------------------*/
+.a {
+  /*border: 1px solid yellow;*/
+  display: block;
+  max-width: 30vw;
+  min-width: 30vw;
+  height: 100vh;
+  text-align: center;
+  padding: 8rem 0 0 3rem;
+}
+.btn {
+  margin: 1rem 0 0 -14rem;
+  background-color: rgb(23, 22, 22);
+  color: white;
+  border: none;
+  text-align: left;
+  padding: 1rem 0 0 3rem;
+}
+.a p {
+  margin: 1rem 4rem;
+  line-height: 2rem;
+  text-align: left;
+}
+.a h1 {
+  text-align: left;
+  padding: 1rem 0 0 4rem;
+}
+
+/*-------------------------------------------*/
+.b {
+  /* border: 1px solid red;*/
+  display: block;
+  width: 70vw;
+  height: 100vh;
+}
+.b img {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  z-index: -1;
+  margin: 5rem 0 0 15rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 340px;
+  background-color: rgb(23, 22, 22);
+  color: white;
+  margin-left: 30rem;
+  margin-top: 27rem;
+  box-shadow: 0px 0px 10px 0px black;
+}
+.f {
+  /*border:1px solid yellow;*/
+  height: 75px;
+ 
+}
+.f img {
+  height: 55px;
+  width: 55px;
+  z-index: 1;
+  
+ position: absolute;
+margin-top: 1rem;
+margin-left: 2rem;
+  
+}
+.f h4 {
+  /*border:1px solid rgb(226, 29, 62);*/
+  float: right;
+  margin: 1rem 8rem 0rem 1rem;
+}
+.f p {
+  /* border:1px solid rgb(226, 29, 62);*/
+  float: right;
+  margin: 0.6rem 8.3rem 0rem 1rem;
+  font-size: 12px;
+  color: rgb(188, 186, 186);
+}
+.s {
+  /*border:1px solid blue;*/
+  height: 75px;
+  padding: 0.5rem 3rem 0.5rem 2rem;
+
+  font-weight: bold;
+  text-align: left;
+  line-height: 27px;
+  font-size: 19px;
+}
+
+/*-----------------------------------*/
+footer {
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
